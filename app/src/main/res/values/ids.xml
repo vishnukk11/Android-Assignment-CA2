@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dp_image" type="id" />
+    <item name="btn1" type="id" />
+    <item name="btn2" type="id" />
+    <item name="t_image" type="id" />
+    <item name="i_image" type="id" />
+    <item name="g_image" type="id" />
+    <item name="or" type="id" />
+    <item name="tv_email" type="id" />
+    <item name="et_email" type="id" />
+    <item name="tv_password" type="id" />
+    <item name="et_password" type="id" />
+    <item name="ch_box" type="id" />
+    <item name="btn_done" type="id" />
+    <item name="tv_forget_password" type="id" />
+</resources>

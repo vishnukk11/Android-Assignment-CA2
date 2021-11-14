@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/yellow">
+
+    <EditText
+        android:id="@+id/edt_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="Edit Text"
+        android:textSize="20sp"
+        android:textColor="@color/red"/>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_txt"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple_700"
+        android:padding="5dp"
+        android:text="Task 1 Solution "
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/radio_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Which language you prefer to code?"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:background="@color/yellow"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_txt"
+        android:layout_margin="8dp"
+        android:background="@color/yellow">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioB1"
+            android:text="Kotlin"
+            android:textSize="20sp"
+            android:textColor="@color/red"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioB2"
+            android:text="Java"
+            android:textSize="20sp"
+            android:textColor="@color/red"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/checkbox_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Who are you?"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:background="@color/yellow"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkB1"
+        android:text="App Developer"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/checkbox_txt"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkB2"
+        android:text="Web Developer"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/checkB1"/>
+
+
+
+</RelativeLayout>
